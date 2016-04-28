@@ -1,0 +1,24 @@
+<head>   
+  <link rel="stylesheet" type="text/css" href="style.css"> 
+</head> 
+<body>   
+  body {
+    background-color: gray;
+}
+</body>
+<div id="events">   
+  <div class='event'>     
+    <p>Bryant scored an incredible 60 points during the game, earning the Lakers 
+     a narrow win over the Utah Jazz. The NBA legend was both loved and hated 
+     by fans — usually depending on which team those fans were rooting for.</p>   
+  </div>   
+  <div class='event'>     
+    <p>After 20 seasons in the NBA, Kobe Bryant has played his final game<p>   
+  </div> 
+</div>
+  <div class='event'>     
+    <p>The Black Mamba, one of the most legendary players in a league that boasted 
+    Wilt Chamberlain and Michael Jordan, took the court for the last time Wednesday 
+    to a sold out home crowd at the Staples Center in Los Angeles.</p>   
+  </div> 
+</div>
