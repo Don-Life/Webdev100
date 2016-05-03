@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+
+ <body>
+   
+  
+  <script>
+     var x1 = 4;
+     var x2 = 8;
+// Variable example
+     var result = x1 + x2;
+     
+     console.log(result);
+     console.log(x1 + x2);
+   // Debugging 
+     var stringA = "Ugly guy";
+     var stringB = " in NY.";
+ 
+     var result = stringA + stringB;
+
+     console.log(result);
+// arrays can hold different dat type
+     var raf = {
+       favoriteCOLOR: "Burgundy",
+       favoriteTeam: "Yankees",
+       heightInches: 72,
+       likes: ["cookies", "massages", "comedy"]
+     };
+
+     console.log(raf.favoriteColor + " " + raf.favoriteTeam);
+     console.log(raf.heightInches);
+     console.log(raf.likes[2]);
+
+     var  num = 4;
+
+     if (num < 5) {
+     	console.log("4, " + num + ", is less than 5");
+     }  else {
+     	console.log("4, " + num + ", is greater or equal to 5");
+     }
+
+     var word = "honey";
+
+     if (word === "jam") {
+     	console.log("the honey is sweet");
+     } else if (word === "jelly") {
+     	console.log("it's strawberry jelly!");
+     } else if (word === "nutella")
+       console.log("Nutella!")
+     
+
+     function addition(x,y) {
+       return x + y + 20;
+     }
+     
+     var result = addition(20,30);
+     console.log(result);
+
+     function isDonly(name) {
+     	return alert(name + " is Donly");
+     }
+
+     isDonly("Rafael");
+     isDonly("Lorenzo");
+
+     function singSong() {
+       return console.log("WorkWorkWork");
+     }
+     
+     singSong();
+     singSong();
+     singSong();
+
+      function iLikeCigars(type) {
+       if (type === 1) {
+       	 return alert("cuban");
+     } else if (type === 2) {
+       return alert ("dominican");
+     } else if (type === 3) {
+     	return alert ("friendly");
+     }
+
+       function myFunction(a, b) {
+        return a + b;
+        a(4)
+        b(3)
+}
+   }
+
+   iLikeCigars(1);
+   iLikeCigars(2);
+     
+     // 3
+     var x = 1;
+     var y = 2;
+
+     var result = x + y;
+     
+     console.log(result);
+     console.log( x + y);
+
+     var string1 = "Dreams are worth ";
+     var string2 = "more than money.";
+ 
+     var result = string1 + string2;
+
+     console.log(result);
+
+     // 4
+
+     var breakfast = [
+    ['bagel', 'croissant', 'donut'],
+    ['kiwi', 'orange', 'apple'],
+    ['juice', 'coffee', 'tea']
+];
+
+     alert( breakfast[2][1]);
+
+     if (raf < 10) {
+         greeting = "Raf is happy";
+     } else {
+         greeting = "Raf is ecstatic";
+     }
+      function wininingTicket(door) {
+        if (door === 1) {
+          return alert("NY");
+        } else if (door === 2) {
+          return alert("NJ");
+        } else if (door === 3) {
+          return alert("CT");
+        }
+      }
+
+      wininingTicket(1);
+      wininingTicket(2);
+
+       function sayWord() {
+        return console.log("Dope");
+      }
+
+      sayWord();
+      sayWord();
+      sayWord();
+  </script>
+ </body>
+</html>
