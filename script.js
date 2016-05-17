@@ -57,7 +57,7 @@ if ((m%2) >0){
 
 function backgroundCheck() {
 
-setTimeout(backgroundCheck, 2000);
+setTimeout(backgroundCheck, 600000);
 changeBackground();
 
 
